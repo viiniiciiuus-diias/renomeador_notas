@@ -102,9 +102,9 @@ def eh_boleto(texto):
 def eh_modelo2(texto):
 
     cnpjs_modelo2 = [
-        "40.965.172", # 
-        "48.626.594", # 
-        "63.517.439" # 
+        "40.965.172",
+        "48.626.594",
+        "63.517.439" 
     ]
 
     return any(cnpj in texto for cnpj in cnpjs_modelo2)

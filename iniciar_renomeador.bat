@@ -1,5 +1,7 @@
 @echo off
-cd /d "C:\Users\User\RenomeadorNotas"
-call venv\Scripts\activate.bat
-python renomear_notas.py
+
+cd /d "%~dp0"
+
+venv\Scripts\python.exe renomear_notas.py
+
 exit
